@@ -1,0 +1,49 @@
+/*
+! Creativity Community v1.0.0 | Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) License | https://vk.com/creativity_community
+*/
+
+@font-face{
+    font-family:"Creativity Community Icons";
+    font-style:normal;
+    font-weight:400;
+    font-display:block;
+    src:url(/fonts/CCIcons-Regular.ttf) format("truetype");
+}
+
+.cc{
+    font-family:"Creativity Community Icons";
+    font-weight:400;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+
+/* https://www.key-shortcut.com/en/character-tables/unicode-e000-efff */
+
+.search::before{
+    content: '\E000';
+}
+
+.premium::before{
+    content: '\E001';
+}
+
+.verify::before{
+    content: '\E002';
+}
+
+.star::before{
+    content: '\E003';
+}
+
+.play::before{
+    content: '\E004';
+}
+
+.astraworld::before{
+    content: '\E005';
+}
