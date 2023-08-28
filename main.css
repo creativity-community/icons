@@ -44,6 +44,14 @@
     content: '\E004';
 }
 
-.astraworld::before{
+.genre::before{
     content: '\E005';
+}
+
+.logout::before{
+    content: '\E006';
+}
+
+.profile::before{
+    content: '\E007';
 }
